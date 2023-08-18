@@ -11,6 +11,43 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<form method="post">
+		
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Name" required></input><br>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Email" required></input><br>
+
+		<label for="gender_m, gender_f">Gender</label>
+		<input type="radio" id="gender_m" required>Male
+		<input type="radio" id="gender_f" required>Female<br>
+
+		<label for="cars">Car Brands</label>
+		<select id="cars"  required>
+			<option>--Please choose an option--</option>
+			<option>BMW</option>
+			<opn>Audi</option>
+			<option>Citreon</option>
+		</select><br>
+	
+		<label for="age">Age</label>
+		<input type="number" id="age" placeholder="Age" required></input><br>
+
+		<label for="dob">DOB</label>
+		<input type="Date" id="dob" required></input><br>
+
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"></input><br>
+
+		<label for="password">Password</label>
+		<input type="password" id="password" placeholder="password" required></input><br>
+
+		<label for="tos">I agree to the TOS</label>
+		<input type="checkbox" id="tod" required></input><br>
+
+		<button type="submit" value="Submit">Submit</button>
+	</form>
 </body>
 
 </html>
